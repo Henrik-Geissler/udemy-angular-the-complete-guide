@@ -5,7 +5,7 @@ export class Recipe {
 
   constructor(name: string, description?: string, imgPath?: string) {
     this.name = name
-    this.description = description
-    this.imgPath = imgPath
+    this.description = description || ''
+    this.imgPath = imgPath || ''
   }
 }
