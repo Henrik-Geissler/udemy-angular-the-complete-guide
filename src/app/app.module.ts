@@ -6,13 +6,13 @@ import { AppComponent } from './app.component'
 import { HeaderComponent } from './header/header.component'
 import { ShoppingListComponent } from './shopping-list/shopping-list.component'
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component'
-import { RecipeListComponent } from './recipies/recipe-list/recipe-list.component'
-import { RecipeItemComponent } from './recipies/recipe-list/recipe-item/recipe-item.component'
-import { RecipeDetailComponent } from './recipies/recipe-detail/recipe-detail.component'
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component'
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component'
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component'
 import { FooterComponent } from './footer/footer.component'
 import { NavigationComponent } from './header/navigation/navigation.component'
 import { PageComponent } from './page/page.component'
-import { RecipiesComponent } from './recipies/recipies.component'
+import { RecipesComponent } from './recipes/recipes.component'
 import { ShoppingListItemComponent } from './shopping-list/shopping-list-item/shopping-list-item.component'
 
 @NgModule({
@@ -27,7 +27,7 @@ import { ShoppingListItemComponent } from './shopping-list/shopping-list-item/sh
     FooterComponent,
     NavigationComponent,
     PageComponent,
-    RecipiesComponent,
+    RecipesComponent,
     ShoppingListItemComponent,
   ],
   imports: [BrowserModule, FormsModule],
